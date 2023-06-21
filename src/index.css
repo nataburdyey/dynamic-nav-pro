@@ -315,7 +315,7 @@ Hero
 }
 
 .hero-center h1 {
-  font-size: clamp(3rem, 5vw, 5rem);
+  font-size: clamp(2rem, 3vw, 3rem);
   margin-bottom: 1rem;
   font-weight: 700;
   line-height: 1.25;

@@ -15,8 +15,8 @@ const Sidebar = () => {
             const { links, page, pageId } = item;
             return (
               <article key={pageId}>
-                <h4>Page</h4>
-                <div className="side-sublinks">
+                <h4>{page}</h4>
+                <div className="sidebar-sublinks">
                   {links.map((link) => {
                     const { url, icon, label, id } = link;
                     return (
