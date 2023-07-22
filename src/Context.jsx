@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useState } from 'react';
 
 const AppContext = createContext();
 
@@ -19,8 +19,7 @@ export const AppProvider = ({ children }) => {
         closeSidebar,
         pageId,
         setPageId,
-      }}
-    >
+      }}>
       {children}
     </AppContext.Provider>
   );

@@ -1,6 +1,6 @@
-import { useGlobalContext } from "./Context";
-import sublinks from "./data";
-import { useRef } from "react";
+import { useGlobalContext } from './Context';
+import sublinks from './data';
+import { useRef } from 'react';
 
 const Submenu = () => {
   const { pageId, setPageId } = useGlobalContext();
@@ -19,18 +19,16 @@ const Submenu = () => {
   };
   return (
     <div
-      className={currentPage ? "submenu show-submenu" : "submenu"}
+      className={currentPage ? 'submenu show-submenu' : 'submenu'}
       onMouseLeave={handleOnMouseLeave}
-      ref={submenuContainer}
-    >
+      ref={submenuContainer}>
       <h5>{currentPage?.page}</h5>
       <div
-        className="submenu-links"
+        className='submenu-links'
         style={{
           gridTemplateColumns:
-            currentPage?.links?.length > 3 ? "1fr 1fr" : "1fr",
-        }}
-      >
+            currentPage?.links?.length > 3 ? '1fr 1fr' : '1fr',
+        }}>
         {currentPage?.links?.map((link) => {
           const { id, url, label, icon } = link;
           return (

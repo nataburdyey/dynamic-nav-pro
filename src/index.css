@@ -14,15 +14,15 @@ html {
 
 :root {
   /* colors */
-  --primary-100: #dbeafe;
-  --primary-200: #bfdbfe;
-  --primary-300: #a5b4fc;
-  --primary-400: #818cf8;
-  --primary-500: #6366f1;
-  --primary-600: #4f46e5;
-  --primary-700: #4338ca;
-  --primary-800: #3730a3;
-  --primary-900: #312e81;
+  --primary-100: hsl(22, 31%, 60%);
+  --primary-200: hsl(22, 31%, 67%);
+  --primary-300: hsl(20, 31%, 74%);
+  --primary-400: hsl(22, 31%, 81%);
+  --primary-500: hsl(22, 31%, 88%);
+  --primary-600: hsl(22, 28%, 45%);
+  --primary-700: hsl(22, 28%, 37%);
+  --primary-800: hsl(22, 28%, 29%);
+  --primary-900:hsl(22, 28%, 21%);
 
   /* grey */
   --grey-50: #f8fafc;
@@ -258,7 +258,7 @@ PROJECT CSS
 =============== 
 */
 body {
-  background: var(--primary-500);
+  background: var(--primary-200);
 }
 /* 
 ============= 

@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
-    <div className="hero-container">
-      <div className="hero-center">
+    <div className='hero-container'>
+      <div className='hero-center'>
         <h1>An Unconventional Adventure Awaits!</h1>
         <p>
           Embark on a hilarious journey through the world of quirky navigation
